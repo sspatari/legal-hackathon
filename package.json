@@ -30,8 +30,6 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
-    "cheerio": "^1.0.0-rc.2",
-    "request-promise": "^4.2.2",
-    "ssl-root-cas": "^1.2.5"
+    "cheerio": "^1.0.0-rc.2"
   }
 }
