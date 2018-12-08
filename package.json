@@ -30,6 +30,8 @@
   },
   "dependencies": {
     "mockingcase": "^1.0.1",
-    "pubnub": "^4.21.6"
+    "pubnub": "^4.21.6",
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2"
   }
 }
