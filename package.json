@@ -27,5 +27,9 @@
     "babel-register": "^6.26.0",
     "eslint": "^5.10.0",
     "nodemon": "^1.18.7"
+  },
+  "dependencies": {
+    "mockingcase": "^1.0.1",
+    "pubnub": "^4.21.6"
   }
 }
