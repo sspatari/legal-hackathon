@@ -1,0 +1,31 @@
+{
+  "name": "legal-hackathon",
+  "version": "1.0.0",
+  "description": "Scrapper for justice sites",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon bin/dev",
+    "clean": "rm -rf dist",
+    "build": "npm run clean && babel src -s -d dist/src",
+    "production": "npm run build && node bin/production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sspatari/legal-hackathon.git"
+  },
+  "author": "Stanislav Spatari",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sspatari/legal-hackathon/issues"
+  },
+  "homepage": "https://github.com/sspatari/legal-hackathon#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "eslint": "^5.10.0",
+    "nodemon": "^1.18.7"
+  }
+}
